@@ -183,3 +183,5 @@ endif ()
 if (WHISPER_BUILD_EXAMPLES)
     add_subdirectory(examples)
 endif()
+
+find_package(CURL REQUIRED)
